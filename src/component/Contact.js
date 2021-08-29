@@ -10,7 +10,7 @@ export default function Contact() {
             <h4 className='call-action'>Contact me!</h4>
             <div className='contain'>
                 <div className="clm-left">
-                    <MyMap />
+               
                 </div>
                 <div className="clm-Right">
                     <ul className="list">
