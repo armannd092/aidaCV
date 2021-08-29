@@ -1,0 +1,207 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap');
+
+.navbar {
+    background-color: transparent;
+    overflow: hidden;
+    display: flex;
+    position: relative;
+    justify-content: center;
+}
+
+.navbar .navbar-option{
+    float: left;
+    color: #5f5f5f;
+    text-align: center;
+    padding: 1vw 1vw;
+    text-decoration: none;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.2em;
+}
+
+
+.navbar .navbar-option:hover {
+    color:rgb(255,255,255);
+    background-color: rgb(0, 0, 0);
+}
+
+.navbar .navbar-option:active {
+    background-color: rgb(110, 110, 110);;
+    color: rgb(0, 0, 0);
+}
+
+
+.footer-main {
+    padding:40px 0;
+    background-color:#ffffff;
+    color:#000000;
+    border-top:solid;
+    border-color: gray;
+  }
+  .footer-main .footer-contact {
+    text-align:center;
+    
+  }
+  .footer-main .footer-option{
+    width:40px;
+    height:40px;
+    padding-left: 1vw;
+    padding-right: 1vw;
+    display:inline-block;
+    border-radius:50%;
+    margin:0px 10px;
+    color:inherit;
+    opacity:0.65;
+  }
+  .footer-main .copyright {
+    margin-top: 1.5vh;
+    text-align:center;
+    font-size: 0.6em;
+    color:#aaa;
+    margin-bottom:0;
+    font-family: 'Open Sans', sans-serif;
+  }
+  .footer-main .footer-option:hover{
+    opacity:0.85;
+  }
+
+  .title{
+    overflow: hidden;
+    display: flex;
+    position: relative;
+    justify-content: center;
+    opacity: 30%;
+    font-family:  'Open Sans', sans-serif;
+    border-bottom:solid;
+  }
+  .call-action{
+    display: flex;
+    justify-content: center;
+    font-family:serif;
+    font-size: 1.5em;
+    text-align-last: justify;
+  }
+  .contain{
+    overflow: hidden;
+    display: flex;
+    position: relative;
+    justify-content: center;
+    padding-left: 200px;
+    padding-right: 200px;
+    padding-bottom: 100px;
+    
+  }
+  .profile{
+      flex: 50%;
+      width: auto;
+      text-align: right;
+      padding-right: 40px;
+      border-width: 2px;
+      border-top-right-radius: 50%;
+      border-bottom-right-radius: 50%;
+      
+  }
+  .contain .text-long{
+      flex: 50%;
+      left:50vw;
+      text-align: justify;
+      font-family: sans-serif;
+      font-size:1.2em;
+      padding: 10px 10px;
+  }
+
+  .clm-right{
+      flex: 50%;
+  }
+  .clm-left{
+      flex: 50%;
+      left: 50vw;
+  }
+  .clm-title{
+      text-align: center;
+      font-family: sans-serif;
+      font-size: 1.2em;
+  }
+
+.list{
+    list-style: none;
+    justify-items: flex-end;
+    margin-left: -40px;
+}
+.sublist-item{
+    list-style: none;
+    font-family: sans-serif;
+    padding-top: 15px;
+    margin-left: 20px;
+}
+.sublist-title{
+    font-weight: bold;
+}
+.list-item{
+    list-style: none;
+    list-style-position: inside;
+    margin-left: 20px;
+    padding: 10px;
+    font-family: sans-serif;
+    font-size: 1em;
+    min-width: 30vw;
+    max-width: 30vw;
+}
+.list-item .job-card{
+    border-style: solid;
+    
+}
+.list-item .date{
+    font-size: 0.5em;
+    padding-left: 10px;
+}
+.list-item .job-title{
+    font-size: 1em;
+    padding-left: 20px;
+}
+.list-item .job-description{
+    font-size: 1em;
+    margin-top: -20px;
+    padding-left: 40px;
+}
+.list-item .skill:hover{
+    color: white;
+    background-color: black;
+}
+.list-item .contacts{
+    padding:0;
+    margin: 0;
+}
+.list-item .contact-card{
+    border: black;
+    border-style: solid;
+    display: flex;
+    font-family: sans-serif;
+    left: 50%;
+}
+.list-item .contact-icon{
+    width: 50%;
+    padding: 20px;
+    max-width: 50px;
+    color: black;
+    opacity: 40%;
+}
+.list-item .contact-info{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.list-item .contact-icon:hover{
+    opacity: 80%;
+}
+
+.list-item .contact-title{
+    font-size: 1em;
+    margin: 20px;
+}
+
+.list-item .contact-detail{
+    font-size: 0.8em;
+    margin-left: -10px;
+    margin-top: 15px;
+}
