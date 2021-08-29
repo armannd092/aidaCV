@@ -12,11 +12,9 @@
     "@fortawesome/free-brands-svg-icons": "^5.15.4",
     "@fortawesome/free-solid-svg-icons": "^5.15.4",
     "@fortawesome/react-fontawesome": "^0.1.15",
-    "leaflet": "^1.1.1",
     "next": "^11.0.0",
     "react": "^17.0.2",
-    "react-dom": "^17.0.2",
-    "react-leaflet": "^3.1.1"
+    "react-dom": "^17.0.2"
   },
   "browserslist": [
     ">0.2%",
